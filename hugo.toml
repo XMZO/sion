@@ -2,3 +2,4 @@ baseURL = 'https://sion.moe/'
 languageCode = 'zh-cn'
 title = 'SION.MOE'
 theme = 'hugo-theme-stack'
+enableGitInfo = true
