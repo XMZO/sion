@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-cn">
+    <title type="text">SION.MOE</title>
+    <subtitle type="html">一个专注于图片与多媒体分享的个人空间。</subtitle>
+    <updated>2025-08-25T06:19:02&#43;08:00</updated>
+    <id>http://localhost:1313/</id>
+    <link rel="alternate" type="text/html" href="http://localhost:1313/" />
+    <author>
+            <name>Sion</name>
+            <uri>http://localhost:1313/</uri>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    <generator uri="https://gohugo.io/" version="0.148.2">Hugo</generator>
+        <entry>
+            <title type="text">
+Hello World</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/hello-world/" />
+            <id>http://localhost:1313/posts/hello-world/</id>
+            <updated>2025-08-25T05:12:50&#43;08:00</updated>
+            <published>2025-08-25T05:04:41&#43;08:00</published>
+            
+            <summary type="html">
+                
+                
+
+            </summary>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">
+画廊与媒体功能测试</title>
+            <link rel="alternate" type="text/html" href="http://localhost:1313/posts/gallery-and-media-test/" />
+            <id>http://localhost:1313/posts/gallery-and-media-test/</id>
+            <updated>2023-11-20T14:00:00&#43;08:00</updated>
+            <published>2023-11-20T14:00:00&#43;08:00</published>
+            
+            <summary type="html">
+                &lt;p&gt;欢迎来到 MemE 主题的功能展示页。这里将演示图片画廊、视频和音乐播放器的嵌入效果。&lt;/p&gt;
+&lt;h2 id=&#34;图片画廊-gallery&#34;&gt;图片画廊 (Gallery)&lt;/h2&gt;
+&lt;p&gt;MemE 主题支持原生的 Markdown 语法来创建图片画廊。只需将图片并列放置即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Sion-m/sion-m.github.io@main/images/media/01.webp&#34; alt=&#34;图片1&#34; title=&#34;这是第一张图片的标题&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Sion-m/sion-m.github.io@main/images/media/02.webp&#34; alt=&#34;图片2&#34; title=&#34;这是第二张图片的标题&#34;&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/Sion-m/sion-m.github.io@main/images/media/03.webp&#34; alt=&#34;图片3&#34; title=&#34;这是第三张图片的标题&#34;&gt;&lt;/p&gt;
+                
+
+            </summary>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/" term="测试" label="测试" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/" term="多媒体" label="多媒体" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="http://localhost:1313/tags/%E7%94%BB%E5%BB%8A/" term="画廊" label="画廊" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>

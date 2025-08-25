@@ -1,5 +1,91 @@
 baseURL = 'https://sion.moe/'
 languageCode = 'zh-cn'
 title = 'SION.MOE'
-theme = 'hugo-theme-stack'
+theme = 'meme'
+hasCJKLanguage = true
 enableGitInfo = true
+copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
+defaultContentLanguage = "zh-cn"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        lineNos = true
+        noClasses = false
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 6
+        ordered = true
+
+[menu]
+    [[menu.main]]
+        pageref = "/posts/"
+        name = "文章"
+        weight = 1
+        pre = "internal"
+        post = "archive"
+    [[menu.main]]
+        pageref = "/categories/"
+        name = "分类"
+        weight = 2
+        pre = "internal"
+        post = "th"
+    [[menu.main]]
+        pageref = "/tags/"
+        name = "标签"
+        weight = 3
+        pre = "internal"
+        post = "tags"
+    [[menu.main]]
+        pageref = "/about/"
+        name = "关于"
+        weight = 4
+        pre = "internal"
+        post = "user-circle"
+    [[menu.main]]
+        weight = 5
+        identifier = "theme-switcher"
+
+[params]
+    mainSections = ["posts"]
+    homeLayout = "posts"
+    siteDescription = "一个专注于图片与多媒体分享的个人空间。"
+    siteLogo = "/images/logo.png"
+    
+    enableDarkMode = true
+    defaultTheme = "light"
+    
+    enableMediumZoom = true
+    
+    enablePostMeta = true
+    postMetaDateFormat = "2006.1.2"
+    displayCategory = true
+    categoryIcon = "folder"
+    displayWordCount = true
+    displayReadingTime = true
+    wordCountIcon = "clock"
+    readingTimeIcon = "hourglass-half"
+
+    listDateFormat = "January 2"
+    listDatePosition = "right"
+
+    enableFooter = true
+    displayCopyrightSymbol = true
+    displaySiteCreatedYear = true
+    iconBetweenYearAndAuthor = "heart"
+    iconColor = "#f06292"
+    iconAnimation = true
+    displayPoweredBy = true
+    displaySiteCopyright = true
+    enableSocials = true
+
+    fofPoster = ""
+    
+    [params.author]
+        name = "Sion"
+        motto = "Welcome to my ACG world!"
+        avatar = "/images/avatar.png"
